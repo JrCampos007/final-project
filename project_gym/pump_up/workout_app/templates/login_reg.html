@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
     <body background="{% static 'img/gym_logo.jpg' %}" class="wrapper">
-        <h1 class="head">Pump Up</h1>
-        <h2 class="head">Registration</h2>
+        <h1 class="head">  <img src="{% static 'img/dumbbell.png' %}" alt="dumbbell" height="42" width="62"> Pump Up <img src="{% static 'img/dumbbell.png' %}" alt="dumbbell" height="42" width="62"> </h1>        <h2 class="head">Registration</h2>
         {% if messages %}
         <ul class="messages">
             {% for message in messages %}
